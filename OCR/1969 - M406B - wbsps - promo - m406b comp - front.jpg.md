@@ -37,7 +37,7 @@ COMPRESSION _ RECOVERY
 
 ```json
 {
- "file": "Modules/DYNAMICS/M406B/PHOTOS/1969 - M406B - wbsps - promo - m406b comp - front.jpg",
+ "file": "Modules/DYNAMICS/M406B/MANUALS/1969 - M406B - wbsps - promo - m406b comp - front.jpg",
  "sha256": "278c3615489545549c2b87b097d41d87f522b71274baf2ee65192f2695bb7b02",
  "kind": "module",
  "models": [

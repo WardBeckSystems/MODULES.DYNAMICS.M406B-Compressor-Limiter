@@ -37,7 +37,7 @@ A balanced system configuration is maintained utilizing an electrostatically/ ma
 
 ```json
 {
- "file": "Modules/DYNAMICS/M406B/PHOTOS/1969 - M406B - Ward Beck Systems M406B.jpg",
+ "file": "Modules/DYNAMICS/M406B/MANUALS/1969 - M406B - Ward Beck Systems M406B.jpg",
  "sha256": "4511153d70873f34286ea6f5dd69e5428cc29516954e4e7ca8d98391f05a5b41",
  "kind": "module",
  "models": [

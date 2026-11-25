@@ -55,7 +55,7 @@ TReioto "
 
 ```json
 {
- "file": "Modules/DYNAMICS/M406B/PHOTOS/1969 - M406B - wbsps - module - m406b comp - front.jpg",
+ "file": "Modules/DYNAMICS/M406B/MANUALS/1969 - M406B - wbsps - module - m406b comp - front.jpg",
  "sha256": "a56680fb8a2101fc92a3ab0024a22f96800381ca1abf2747a6ca38b7d559f00f",
  "kind": "module",
  "models": [

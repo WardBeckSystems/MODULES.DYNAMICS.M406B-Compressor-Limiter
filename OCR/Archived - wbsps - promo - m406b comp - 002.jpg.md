@@ -77,7 +77,7 @@ WBS
 
 ```json
 {
- "file": "Modules/DYNAMICS/M406B/PHOTOS/Archived - wbsps - promo - m406b comp - 002.jpg",
+ "file": "Modules/DYNAMICS/M406B/MANUALS/Archived - wbsps - promo - m406b comp - 002.jpg",
  "sha256": "45178b3660b17207cd4b042a77cc7ade5431e818a96f37afe8c34fb560661fc5",
  "kind": "module",
  "models": [

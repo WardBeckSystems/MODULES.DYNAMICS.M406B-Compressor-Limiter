@@ -43,7 +43,7 @@ WBS
 
 ```json
 {
- "file": "Modules/DYNAMICS/M406B/PHOTOS/1969 - M406B - wbsps - promo - m406b comp - back.jpg",
+ "file": "Modules/DYNAMICS/M406B/MANUALS/1969 - M406B - wbsps - promo - m406b comp - back.jpg",
  "sha256": "e17242751430e5890b42ae4cb6f71c43e467efb88284cd08b2207c3c5e282593",
  "kind": "module",
  "models": [

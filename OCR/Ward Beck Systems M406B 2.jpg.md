@@ -53,7 +53,7 @@ WBS
 
 ```json
 {
- "file": "Modules/DYNAMICS/M406B/PHOTOS/Ward Beck Systems M406B 2.jpg",
+ "file": "Modules/DYNAMICS/M406B/MANUALS/Ward Beck Systems M406B 2.jpg",
  "sha256": "f8f3d4ea556ed9167129e703684feeb218f6693c47ae9eacd92b739d200ba5c3",
  "kind": "module",
  "models": [
