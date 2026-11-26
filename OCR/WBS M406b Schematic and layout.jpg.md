@@ -17,6 +17,19 @@ Redrawn modern schematic and component placement, two pages combined, no WBS tit
 - **Size:** 429,395 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout, size B (assumed) 432 × 173 mm, 2000 × 800 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–172 mm up
+- **Outlines:** line 2,467 rings, 17,651 straight (29,175 mm) / 3,994 curved (4,071 mm); text 648 rings, 4,533 straight (3,332 mm) / 1,547 curved (1,530 mm); tb 64 rings, 271 straight (249 mm) / 58 curved (53.7 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.9 @ (200.6, 150.0), r 3.9 @ (63.7, 124.3), r 3.9 @ (173.0, 134.8), r 3.9 @ (63.7, 150.1)
+- **Closed boxes:** 81; named: C26 Vr1 C25; Vr1; R13 VR2 VRI C13 B7 R12 BP 25124 R8 WBSM1; R12; BP; 25124; BP; R8
+- **Dots (junctions):** 5
+- **Words (OCR):** 100 in 95 lines: 6208 · 8ii · Yiur · In llow · C26 · Vr1 · 7I0C · 218645 · In (hi) · C25 · Hoor · IDz
+- **Title block:** (155, 20)–(408, 35) mm: Ward-Beck · M406 Complm - De-esser · Schemalk & Component Prcement · LAI6 · Ward-Beck · M406 Complum De-esser · Rev A · 9.12.9 · I2aRFO 7 LoR · Fe
+
+Every curve, box, word and wire group: [WBS M406b Schematic and layout (traced).json](../SCHEMATICS/WBS%20M406b%20Schematic%20and%20layout%20%28traced%29.json) (the CAD file: `WBS M406b Schematic and layout (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 11 words corrected)

@@ -11,6 +11,19 @@ Wiki page: [M406B](../../../../PAGES/M406B.md)
 - **Size:** 392,108 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout, size B (assumed) 432 × 173 mm, 2000 × 800 px traced (0.216 mm/px)
+- **Ink extent:** 10–432 mm across, 0–172 mm up
+- **Outlines:** line 2,417 rings, 17,461 straight (29,633 mm) / 3,913 curved (4,027 mm); text 658 rings, 4,445 straight (3,244 mm) / 1,579 curved (1,589 mm); tb 73 rings, 302 straight (268 mm) / 70 curved (67.4 mm)
+- **Circles and arcs:** 18 circles, 0 arcs; largest r 3.9 @ (63.7, 132.8), r 3.9 @ (173.0, 125.2), r 3.9 @ (63.7, 124.3), r 3.9 @ (200.6, 150.0)
+- **Closed boxes:** 71; named: C26 Vr1 C25; R13 VR2 VRI C13 R12 Ee0 25124 WBSM14Ts; R12; Ee0; 25124; Ee0
+- **Dots (junctions):** 8
+- **Words (OCR):** 99 in 93 lines: 2N4+01 · Yiu · In Ilow) · C26 · Vr1 · La · 7I0C · 218645 · In hi) · C25 · Aoor · IDZ
+- **Title block:** (155, 20)–(408, 35) mm: Ward-Beck · M406 Compum - De-esser · Schemalk & Component Placement · Ward-Beck · M406 Comp-m De-esser · Rev A · 9.12.9 · [220R1 LAOR · Senis · ER · EOR
+
+Every curve, box, word and wire group: [1969 - M406B - Schematic and layout (traced).json](../SCHEMATICS/1969%20-%20M406B%20-%20Schematic%20and%20layout%20%28traced%29.json) (the CAD file: `1969 - M406B - Schematic and layout (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 12 words corrected)

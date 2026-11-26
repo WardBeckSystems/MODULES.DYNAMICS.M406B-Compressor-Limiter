@@ -27,6 +27,20 @@ Partial schematic of the M406B compressor, cropped at left.
 
 - **1969** (month): `DEC 69` — …7k CRI3 IN754A 6.8v DRN DJG Firsh IARO RECR SYSIESS LTU Mte DEC 69 M4O6 B COMPRESSOR RATERIAL CHKD SCHEMATIC CEILING CONTROL M…
 
+## Vectors (traced)
+
+- **Sheet:** schematic B 406-02-?13, size B 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–305 mm up
+- **Outlines:** line 519 rings, 8,869 straight (15,171 mm) / 1,143 curved (1,766 mm); text 960 rings, 6,147 straight (6,714 mm) / 1,738 curved (2,512 mm); tb 48 rings, 226 straight (170 mm) / 43 curved (44.3 mm)
+- **Centre lines:** 7,378 paths (105 closed); straight 12,408 mm, curved 449 mm; horizontal 5,239 mm, vertical 2,725 mm, diagonal 4,443 mm
+- **Circles and arcs:** 18 circles, 41 arcs; largest r 10.8 @ (55.2, 252.6), r 10.8 @ (56.6, 198.0), r 8.3 @ (102.4, 141.9), r 8.2 @ (98.3, 86.6)
+- **Closed boxes:** 3
+- **Words (OCR):** 160 in 139 lines: CRZ · R77 · 22 448 V · DsI · R78 · 200 FD444 · 5w · 21 · C28 · OR 2k · C2i · CRI
+- **Title block:** (173, 26)–(203, 71) mm: DJG · DRN · Mte · CHKD · SCALE
+- **Wiring (first pass):** 104 connected wire groups from 517 runs; labelled ends: 555 mm → R77, 200, 5w, C28; 331 mm → R71, 47K, 18, 24; 324 mm → 16, SL, SW2B, 14; 221 mm → GR, I925; 189 mm → TOLS
+
+Every curve, box, word and wire group: [1968 - B 406-02--13 - COMPRESSOR SCHEMATIC CEILING CONTROL MODIFIED - ISS 2 (traced).json](../SCHEMATICS/1968%20-%20B%20406-02--13%20-%20COMPRESSOR%20SCHEMATIC%20CEILING%20CONTROL%20MODIFIED%20-%20ISS%202%20%28traced%29.json) (the CAD file: `1968 - B 406-02--13 - COMPRESSOR SCHEMATIC CEILING CONTROL MODIFIED - ISS 2 (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 2 words corrected)

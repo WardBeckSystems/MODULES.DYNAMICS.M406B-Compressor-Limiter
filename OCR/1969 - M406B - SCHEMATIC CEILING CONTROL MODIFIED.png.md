@@ -15,6 +15,19 @@ Wiki page: [M406B](../../../../PAGES/M406B.md)
 
 - **1969** (month): `DEC 69` — …4O iok Qii 2n44oi 587 RiI6 4.7k CRi3 In7S4A 6.8v DRN DJG M7 DEC 69 Fins: SESTEES LTU M4O6 B COMPRESSOR RATERIAL CHKC SCHEMATIC…
 
+## Vectors (traced)
+
+- **Sheet:** schematic, size B (assumed) 432 × 305 mm, 2000 × 1414 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–304 mm up
+- **Outlines:** line 547 rings, 10,511 straight (16,384 mm) / 1,332 curved (1,955 mm); text 993 rings, 6,790 straight (7,255 mm) / 1,942 curved (2,740 mm)
+- **Centre lines:** 9,352 paths (116 closed); straight 13,613 mm, curved 410 mm; horizontal 5,566 mm, vertical 2,982 mm, diagonal 5,066 mm
+- **Circles and arcs:** 14 circles, 38 arcs; largest r 10.8 @ (55.3, 252.6), r 10.7 @ (56.6, 198.0), r 8.3 @ (98.5, 86.5), r 7.9 @ (101.8, 141.5)
+- **Closed boxes:** 3
+- **Words (OCR):** 155 in 135 lines: CRZ · R7 · 22 +48 V · 200 FD444 · DsI · R78 · 5w · 2i · C28 · OR 2k · C2i · CRI
+- **Wiring (first pass):** 115 connected wire groups from 566 runs; labelled ends: 508 mm → CRI, 4750, C2i, HF; 333 mm → 16, SL, SW28, 14; 321 mm → R76, Io/zo, R71, 47k; 209 mm → 470, GR, I925; 199 mm → TOLS
+
+Every curve, box, word and wire group: [1969 - M406B - SCHEMATIC CEILING CONTROL MODIFIED (traced).json](../SCHEMATICS/1969%20-%20M406B%20-%20SCHEMATIC%20CEILING%20CONTROL%20MODIFIED%20%28traced%29.json) (the CAD file: `1969 - M406B - SCHEMATIC CEILING CONTROL MODIFIED (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)
