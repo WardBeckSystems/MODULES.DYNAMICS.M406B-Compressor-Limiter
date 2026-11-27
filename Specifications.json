@@ -1,0 +1,95 @@
+{
+ "module": "M406B",
+ "title": "",
+ "source": {
+  "file": "MANUALS/1969 - M406B - P4.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.93,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Compression ratio",
+   "key": "compression_ratio",
+   "text": "Compression mode 2:1, 3:1, 5:1, 10:1 and L, Limit mode 20:1"
+  },
+  {
+   "name": "Compression ratio",
+   "key": "compression_ratio",
+   "text": "25dB",
+   "quantities": [
+    {
+     "value": 25,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Attack time",
+   "key": "attack_time",
+   "text": "Compression 10 milli sec"
+  },
+  {
+   "name": "Limit",
+   "key": "limit",
+   "text": "100 micro sec"
+  },
+  {
+   "name": "Recovery time",
+   "key": "recovery_time",
+   "text": "500 msec, sec, sec, 5 sec",
+   "quantities": [
+    {
+     "value": 5,
+     "unit": "sec"
+    }
+   ]
+  },
+  {
+   "name": "Dees sing",
+   "key": "dees_sing",
+   "text": "Control incorporated"
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "The low terminal number of the input pair and the low terminal number of the output pair are in phase."
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "48 volts dc regulated from M648 or equivalent. 100 ma",
+   "quantities": [
+    {
+     "value": 48,
+     "unit": "volts dc"
+    },
+    {
+     "value": 100,
+     "unit": "ma"
+    }
+   ]
+  },
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "00 to 600c"
+  },
+  {
+   "name": "Dimensions",
+   "key": "dimensions",
+   "text": "1.58w X 6.625L X 6D (depth below panel) inches",
+   "quantities": [
+    {
+     "value": 1.58,
+     "unit": "w"
+    }
+   ]
+  },
+  {
+   "name": "Weight",
+   "key": "weight",
+   "text": "lbs net."
+  }
+ ]
+}

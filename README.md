@@ -13,6 +13,40 @@ Ward-Beck Systems M406B, 1968|1. Wiki page: [M406B on WBSps.ca](https://wardbeck
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 2 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 50 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [7 topics](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1969 - M406B - P4.jpg](MANUALS/1969%20-%20M406B%20-%20P4.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Compression ratio** | Compression mode 2:1, 3:1, 5:1, 10:1 and L, Limit mode 20:1 |
+| **Compression ratio** | 25dB |
+| **Attack time** | Compression 10 milli sec |
+| **Limit** | 100 micro sec |
+| **Recovery time** | 500 msec, sec, sec, 5 sec |
+| **Dees sing** | Control incorporated |
+| **Phasing** | The low terminal number of the input pair and the low terminal number of the output pair are in phase. |
+| **Power requirements** | 48 volts dc regulated from M648 or equivalent. 100 ma |
+| **Ambient temperature** | 00 to 600c |
+| **Dimensions** | 1.58w X 6.625L X 6D (depth below panel) inches |
+| **Weight** | lbs net. |
+
+## Circuit description
+
+From [1969 - M406B - P7.jpg](MANUALS/1969%20-%20M406B%20-%20P7.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+Page off the compression or limiting action. Sw3-6 (portion of the slope switch) varies the Threshold level to 21 as the slope selection is changed. Also integral to 21 is the de-essing circuit which gives up to 8dB of boost at 6kHz increasing the amount of compression to the high frequency components present in the program material 21 output is coupled via C39 to T2 the secondary of which drives the detection rectifiers CR7 to CRlO_ The rectified audio signal is amplified by 25 _ The amount of gain this amplifier has determines the slope of the compressor 25 output feeds the compressor averaging circuitry which determines how fast compression takes place (determined by R102 and C37) and the recovery rate determined by the resistive values selected by Sw5, c38 is the main storage capacitor _ Q8 is high impedance source follower used to take the correction signal developed at its gate and drive the gain reduction meter amplifier as well as the comparator 24. The correction voltage developed at the source of Q8 is applied to pin 2 of comparator 24, CR3, CR4, R85 and R86 is linearizing circuit to correct for the logarithmic characteristics of the derived error correct ing voltage. The other input applied to pin of comparator 24 is saw tooth voltage with nominal amplitude of 3V P-p. The driving signal appearing at pin of 24 is var ing width pulse the duration of which is determined by the magnitude of the error correcting voltage applied to pin 2. Q4 and Q5 form free running oscillator with approximately 750kHz. frequency of Q6, R84 C32 is saw tooth forming circuit. Each time 06 is driven to saturation C32 is discharged and when it reaches an amplitude of 3V, 06 is again driven to saturation discharging C32. Level set control Rlll applies small amount of bias voltage to pin 2 of 24 and is adjusted to give approximately 2 dB of attenuation to the audio signal with the compressor switch Sw6 in the Off position. (Use this control to set compressor gain to unity) Q9 is the meter amplifier to amplify the error signal to magnitude capable of driving standard VU meter. Rl17 is the
+
+</details>
+
+<!-- /module data -->
+
 ## Photos
 
 _Photographs of the module itself: front, back, inside, racked._
