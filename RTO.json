@@ -304,5 +304,6 @@
    "note": "JUMPER 21 TO 22 FOR 48V SUPPLY TO LAMP CIRCUIT VIA INTERNAL DROPPING RESISTOR (drawn dashed)"
   }
  ],
- "conflicts": []
+ "conflicts": [],
+ "to_check": []
 }

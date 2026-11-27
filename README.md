@@ -91,7 +91,7 @@ Not on Google Drive yet: `19xx - M406B - M 406B Waveforms.jpg`, `19xx - M406B - 
 
 ## RTO-144 pinout
 
-Read from 3 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 3 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
 | Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
