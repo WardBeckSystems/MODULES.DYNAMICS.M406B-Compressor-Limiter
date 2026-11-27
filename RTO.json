@@ -1,138 +1,308 @@
 {
  "code": "M406B",
  "connector": "RTO-144",
- "type": "Compressor/Limiter",
+ "type": null,
  "series": null,
- "contacts": "22 contacts",
- "verified": null,
- "derived": true,
- "variant_of": "M406",
- "pins": [
+ "connectors": [
   {
-   "pin": "1",
-   "signal": "COMPRESSOR IN",
-   "kind": "in",
-   "pair": "A1",
-   "polarity": "+",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "2",
-   "signal": "COMPRESSOR IN",
-   "kind": "in",
-   "pair": "A1",
-   "polarity": "-",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "13",
-   "signal": "COMPRESSOR OUT",
-   "kind": "out",
-   "pair": "A2",
-   "polarity": "+",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "14",
-   "signal": "COMPRESSOR OUT",
-   "kind": "out",
-   "pair": "A2",
-   "polarity": "-",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "15",
-   "signal": "METER OUT",
-   "kind": "out",
-   "pair": "B2",
-   "polarity": "+",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "16",
-   "signal": "METER OUT",
-   "kind": "out",
-   "pair": "B2",
-   "polarity": "-",
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "17",
-   "signal": "SIDE CHAIN",
-   "kind": "control",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "18",
-   "signal": "COMMON",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "19",
-   "signal": "COMMON",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "20",
-   "signal": "+24 V",
-   "kind": "power",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "22",
-   "signal": "+48 V",
-   "kind": "power",
-   "pair": null,
-   "polarity": null,
-   "confidence": "variant",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M406/M406.rto144.json",
-   "page": 1
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 22,
+   "rows": "1-22 single row",
+   "view": null,
+   "part": null
   }
  ],
- "straps": [],
- "power": [],
- "sources": [
-  "Engineering/RTO-144/M406/M406.rto144.json"
- ]
+ "verified": null,
+ "built_from": {
+  "pictures": [
+   "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+   "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+   "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
+ "pins": [
+  {
+   "connector": "P1",
+   "pin": "1",
+   "ref": "1",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT",
+   "kind": "in",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "2",
+   "ref": "2",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT",
+   "kind": "in",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "9",
+   "also": null,
+   "same_row": null,
+   "signal": "INPUT SHIELD",
+   "kind": "shield",
+   "port": "INPUT",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "13",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT 1",
+   "kind": "out",
+   "port": "OUTPUT 1",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "14",
+   "ref": "14",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT 1",
+   "kind": "out",
+   "port": "OUTPUT 1",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "15",
+   "also": null,
+   "same_row": null,
+   "signal": "METER OUTPUT",
+   "kind": "out",
+   "port": "METER OUTPUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "16",
+   "also": null,
+   "same_row": null,
+   "signal": "METER OUTPUT",
+   "kind": "out",
+   "port": "METER OUTPUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "17",
+   "ref": "17",
+   "also": null,
+   "same_row": null,
+   "signal": "OUTPUT SHIELD",
+   "kind": "shield",
+   "port": "OUTPUT 1",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "18",
+   "ref": "18",
+   "also": null,
+   "same_row": null,
+   "signal": "SUPPLY COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "19",
+   "ref": "19",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS GND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "20",
+   "ref": "20",
+   "also": null,
+   "same_row": null,
+   "signal": "+24 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "21",
+   "also": null,
+   "same_row": null,
+   "signal": "LAMP SUPPLY (JUMPER TO 22)",
+   "kind": "strap",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "22",
+   "also": null,
+   "same_row": null,
+   "signal": "+48 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json",
+    "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json",
+    "M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "INPUT",
+   "dir": "in",
+   "pins": {
+    "unmarked": [
+     "P1-1",
+     "P1-2"
+    ],
+    "shield": "P1-9"
+   }
+  },
+  {
+   "name": "OUTPUT 1",
+   "dir": "out",
+   "pins": {
+    "unmarked": [
+     "P1-13",
+     "P1-14"
+    ],
+    "shield": "P1-17"
+   }
+  },
+  {
+   "name": "METER OUTPUT",
+   "dir": "out",
+   "pins": {
+    "unmarked": [
+     "P1-15",
+     "P1-16"
+    ]
+   }
+  }
+ ],
+ "inserts": [],
+ "straps": [
+  {
+   "name": "48V LAMP",
+   "pins": [
+    "P1-21",
+    "P1-22"
+   ],
+   "note": "JUMPER 21 TO 22 FOR 48V SUPPLY TO LAMP CIRCUIT VIA INTERNAL DROPPING RESISTOR (drawn dashed)"
+  }
+ ],
+ "conflicts": []
 }

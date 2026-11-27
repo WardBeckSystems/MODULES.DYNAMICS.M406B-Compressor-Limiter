@@ -1,40 +1,35 @@
 (kicad_symbol_lib (version 20231120) (generator "WBSps KiCad - M406B") (generator_version "2.0")
-  ;; ====================================================================
-  ;; Ward-Beck Systems Ltd. — Model: M406B
-  ;; Title: Compressor/Limiter
-  ;; Category: DYNAMICS | Series: Standard | Year: 1969
-  ;; Power: +24 V, +48 V
-  ;; Impedance: Standard 600Ω
-  ;; Connector: Card-edge
-  ;; Verified: Archive technical documentation
-  ;; Archive: https://wbsps.ca/PAGES/M406B.html
-  ;; ====================================================================
   (symbol "M406B" (pin_names (offset 1.016)) (exclude_from_sim yes) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 12.70 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "M406B" (at 0 -12.70 0) (effects (font (size 1.27 1.27))))
+    (property "Reference" "U" (at 0 25.40 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "M406B" (at 0 -33.02 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "https://wbsps.ca/PAGES/M406B.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Description" "M406B: The M4O6B Compressor / Limiter is a plug-in, high performance module designed to be compatible with the Ward-Beck group of modular console components Two concentric controls, a sin..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "ki_keywords" "Ward-Beck WBS audio broadcast DYNAMICS  M406B" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "ki_description" "M406B: The M4O6B Compressor / Limiter is a plug-in, high performance module designed to be compatible with the Ward-Beck group of modular console components Two concentric controls, a sin..." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "Ward-Beck Systems Ltd." (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Pinout_Pictures" "M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2 (2).pinout.json; M406/PINOUTS/1970 - 406-02-011 - M406B COMPRESSOR PLUG CONNECTIONS - DRN DJG - ISS 2.pinout.json; M406/PINOUTS/1970 - M406 - B 406-02-011 - M406B COMPRESSOR - PLUG CONNECTIONS.pinout.json" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Category" "DYNAMICS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Year" "1969" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Power" "+24 V, +48 V" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
     (property "Impedance" "Standard 600Ω" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-    (symbol "M406B_0_1" (rectangle (start -35.56 7.62) (end 35.56 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "M406B_0_1"
+      (rectangle (start -35.56 17.78) (end 35.56 -25.40) (stroke (width 0.254) (type default)) (fill (type background)))
+    )
     (symbol "M406B_1_1"
-      (pin input line (at -40.64 5.08 0) (length 5.08) (name "SIDE CHAIN" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 40.64 5.08 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
-      (pin output line (at 40.64 2.54 180) (length 5.08) (name "METER OUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at -2.54 12.70 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at 2.54 12.70 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at -12.70 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at -7.62 -12.70 90) (length 5.08) (name "COMPRESSOR IN" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at -2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at 2.54 -12.70 90) (length 5.08) (name "COMPRESSOR OUT" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at 7.62 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
-      (pin power_in line (at 12.70 -12.70 90) (length 5.08) (name "COMMON" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 10.16 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -40.64 7.62 0) (length 5.08) (name "INPUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -40.64 2.54 0) (length 5.08) (name "LAMP SUPPLY (JUMPER TO 22)" (effects (font (size 1.27 1.27)))) (number "21" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -40.64 -2.54 0) (length 5.08) (name "INPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+      (pin passive line (at -40.64 -7.62 0) (length 5.08) (name "OUTPUT SHIELD" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 10.16 180) (length 5.08) (name "METER OUTPUT" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 7.62 180) (length 5.08) (name "METER OUTPUT" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 2.54 180) (length 5.08) (name "OUTPUT 1" (effects (font (size 1.27 1.27)))) (number "13" (effects (font (size 1.27 1.27)))))
+      (pin output line (at 40.64 0.00 180) (length 5.08) (name "OUTPUT 1" (effects (font (size 1.27 1.27)))) (number "14" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 22.86 270) (length 5.08) (name "+24 V" (effects (font (size 1.27 1.27)))) (number "20" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 22.86 270) (length 5.08) (name "+48 V" (effects (font (size 1.27 1.27)))) (number "22" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -2.54 -30.48 90) (length 5.08) (name "SUPPLY COMMON" (effects (font (size 1.27 1.27)))) (number "18" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at 2.54 -30.48 90) (length 5.08) (name "CHASSIS GND" (effects (font (size 1.27 1.27)))) (number "19" (effects (font (size 1.27 1.27)))))
     )
   )
 )

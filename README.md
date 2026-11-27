@@ -89,6 +89,28 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 
 Not on Google Drive yet: `19xx - M406B - M 406B Waveforms.jpg`, `19xx - M406B - M406B.jpg`, `Archived - wbsps - promo - m406b comp - 002.jpg`, `Ward Beck Systems M406B 2.jpg`, `wbsps - module - m406b comp - back(1).jpg`, `wbsps - module - m406b comp - back.jpg`
 
+## RTO-144 pinout
+
+Read from 3 pinout pictures (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json).
+
+| Pin | Signal | Kind | Port | Confidence |
+|---|---|---|---|---|
+| 1 | INPUT | in | INPUT | high |
+| 2 | INPUT | in | INPUT | high |
+| 9 | INPUT SHIELD | shield | INPUT shield | high |
+| 13 | OUTPUT 1 | out | OUTPUT 1 | high |
+| 14 | OUTPUT 1 | out | OUTPUT 1 | high |
+| 15 | METER OUTPUT | out | METER OUTPUT | high |
+| 16 | METER OUTPUT | out | METER OUTPUT | high |
+| 17 | OUTPUT SHIELD | shield | OUTPUT 1 shield | high |
+| 18 | SUPPLY COMMON | ground |  | high |
+| 19 | CHASSIS GND | ground |  | high |
+| 20 | +24 V | power |  | high |
+| 21 | LAMP SUPPLY (JUMPER TO 22) | strap |  | high |
+| 22 | +48 V | power |  | high |
+
+**Straps:** 48V LAMP: P1-21 P1-22
+
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
