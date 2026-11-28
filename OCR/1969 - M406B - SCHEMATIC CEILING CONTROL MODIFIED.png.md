@@ -1,5 +1,5 @@
 # 1969 - M406B - SCHEMATIC CEILING CONTROL MODIFIED.png
-Wiki page: [M406B](../../../../PAGES/M406B.md)
+Wiki page: [M406B](../)
 
 
 - **Year:** 1969 (found in this file: "DEC 69")

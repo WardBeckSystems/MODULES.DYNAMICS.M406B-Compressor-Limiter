@@ -1,6 +1,6 @@
 # M406B Compressor Limiter · Dynamics
 
-Ward-Beck Systems M406B, 1968|1. Wiki page: [M406B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M406B.html)
+Ward-Beck Systems M406B, 1968|1. Wiki page: [M406B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.DYNAMICS.M406B-Compressor-Limiter/)
 
 | Folder | What is in it | Files |
 |---|---|---|

@@ -1,5 +1,5 @@
 # Archived - wbsps - promo - m406b comp - 002.jpg
-Wiki page: [M406B](../../../../PAGES/M406B.md)
+Wiki page: [M406B](../)
 
 
 - **Year:** unknown (title block (read by eye))

@@ -1,5 +1,5 @@
 # 19xx - M406B - M 406B Waveforms.jpg
-Wiki page: [M406B](../../../../PAGES/M406B.md)
+Wiki page: [M406B](../)
 
 
 - **Year:** unknown (title block (read by eye))
